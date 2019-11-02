@@ -1,0 +1,21 @@
+{
+    "name": "bekzatd/stringToCondition",
+    "description": "Easy way to make a string condition",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," string to condition"," convert string to condition"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bekzatd",
+            "email": "retire@inbox.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "bekzatd\\stringToCondition\\": ""
+        }
+    }
+}
