@@ -1,5 +1,5 @@
 {
-    "name": "bekzatd/stringToCondition",
+    "name": "bekzatd/string-to-condition",
     "description": "Easy way to make a string condition",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"," string to condition"," convert string to condition"],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "bekzatd\\stringToCondition\\": ""
+            "bekzatd\\string-to-condition\\": ""
         }
     }
 }
