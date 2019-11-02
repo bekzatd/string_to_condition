@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist bekzatd/stringToCondition "*"
+php composer.phar require --prefer-dist bekzatd/string-to-condition "*"
 ```
 
 or add
 
 ```
-"bekzatd/stringToCondition": "*"
+"bekzatd/string-to-condition": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \bekzatd\stringToCondition\Converter::if(); ?>```
+<?= \bekzatd\string-to-condition\Converter::if(); ?>```
