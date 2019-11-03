@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist bekzatd/string-to-condition "*"
+php composer.phar require --prefer-dist "bekzatd/string-to-condition:*"
 ```
 
 or add
 
 ```
-"bekzatd/string-to-condition": "*"
+"bekzatd/string-to-condition:*"
 ```
 
 to the require section of your `composer.json` file.
