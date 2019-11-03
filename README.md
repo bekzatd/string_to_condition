@@ -1,31 +1,55 @@
-String to Condition Converter
+String to Condition Converter/Конвертер Строк в Условия
 =============================
-Easy way to make a string condition
+Легко конвертируйте строки в логические выражения 
 
 Installation
 ------------
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+Желательно установить библиотеку через [composer](http://getcomposer.org/download/).
 
-Either run
+Для этого скопируйте код в терминал
 
 ```
 php composer.phar require --prefer-dist "bekzatd/string_to_condition:*"
 ```
 
-or add
+или добавьте
 
 ```
 "bekzatd/string_to_condition:*"
 ```
 
-to the require section of your `composer.json` file.
+в разделе `require` в ваш файл `composer.json`.
 
 
-Usage
+Как использовать?
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Самый простой способ использования  :
 
 ```php
-<?= \bekzatd\string_to_condition\Converter::if(); ?>```
+<?= \bekzatd\string_to_condition\Converter::if(" логическое выражение "); ?>
+```
+
+Примеры:
+-----
+
+Просто пишите свое выражение внутри метода `if`  :
+
+```php
+<?= \bekzatd\string_to_condition\Converter::if("2>1 || 2<1"); ?>```
+
+и результатом будет 
+
+```
+true
+```
+
+Правила:
+-----
+
+`2>1` - ваши сравнения надо писать слитно
+
+`2>1 || 2<1` - а вот логические операторы наоборот с пробелом
+
+`|| , &&` - принимаются только два вида операторов `&&` , `||` 
