@@ -17,5 +17,11 @@
         "psr-4": {
             "bekzatd\\string-to-condition\\": ""
         }
-    }
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/bekzatd/string-to-condition"
+        }
+    ]
 }
