@@ -9,5 +9,5 @@ return array(
     'yii\\composer\\' => array($vendorDir . '/yiisoft/yii2-composer'),
     'yii\\' => array($vendorDir . '/yiisoft/yii2'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
-    'bekzatd\\string-to-condition\\' => array($baseDir . '/'),
+    'bekzatd\\string_to_condition\\' => array($baseDir . '/'),
 );
