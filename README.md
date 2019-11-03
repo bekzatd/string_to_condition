@@ -37,7 +37,8 @@ php composer.phar require --prefer-dist "bekzatd/string_to_condition:*"
 Просто пишите свое выражение внутри метода `if`  :
 
 ```php
-<?= \bekzatd\string_to_condition\Converter::if("2>1 || 2<1"); ?>```
+<?= \bekzatd\string_to_condition\Converter::if("2>1 || 2<1"); ?>
+```
 
 и результатом будет 
 
