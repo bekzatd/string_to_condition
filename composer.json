@@ -23,5 +23,7 @@
             "type": "git",
             "url": "https://github.com/bekzatd/string-to-condition"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
