@@ -1,6 +1,6 @@
 <?php
 
-namespace bekzatd\stringToCondition;
+namespace bekzatd\string_to_condition;
 use yii\base\ErrorException;
 use yii\web\NotFoundHttpException;
 
