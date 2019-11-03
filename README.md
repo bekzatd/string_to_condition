@@ -37,7 +37,11 @@ php composer.phar require --prefer-dist "bekzatd/string_to_condition:*"
 Просто пишите свое выражение внутри метода `if`  :
 
 ```php
-<?= \bekzatd\string_to_condition\Converter::if("2>1 || 2<1"); ?>
+use \bekzatd\string_to_condition\Converter;
+
+Converter::if("2>1 || 2<1"); // true
+Converter::if("true || false"); //true
+Converter::if("2<1 || false && 0"); // false
 ```
 
 и результатом будет ответ типа `boolean`
