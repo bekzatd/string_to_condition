@@ -40,10 +40,10 @@ php composer.phar require --prefer-dist "bekzatd/string_to_condition:*"
 <?= \bekzatd\string_to_condition\Converter::if("2>1 || 2<1"); ?>
 ```
 
-и результатом будет 
+и результатом будет ответ типа `boolean`
 
 ```
-true
+true или false
 ```
 
 Правила:
